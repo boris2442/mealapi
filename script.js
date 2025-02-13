@@ -71,5 +71,3 @@ var rellax=new Rellax('.rellax', {
     horizontal: false
 })
 
-const images=document.querySelectorAll('img')
-console.log(images)
