@@ -17,7 +17,7 @@ async function fetchMeals(search){
  await   fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${search}`)
  .then((res)=>res.json())
     .then((data)=>(meals=data.meals))
-    console.log(meals)
+    // console.log(meals)
 }
 
 
@@ -34,13 +34,13 @@ function mealsDisplay(){
             if(meal[`strIngredient${i}`]){
                 let ingredient=meal[`strIngredient${i}`]
                 let measure=meal[`strMeasure${i}`]
-                 console.log(ingredient + "-"+measure);
+                //  console.log(ingredient + "-"+measure);
                  ingredients.push(`<li>${ingredient}- ${measure}</li>`);
             }
         }
-        console.log(ingredients)
+        // console.log(ingredients)
            return `
-            <li class="card">
+            <li class="card rellax" data-rellax-speed="2">
             <h2><span>Name:</span>${meal.strMeal}</h2>
             <p><span>Country:</span>${meal.strArea}</p>
             <img src="${meal.strMealThumb}" alt="photo de ${meal.strMeal}" >
@@ -62,3 +62,14 @@ form.addEventListener("submit",(e)=>{
 })
 
 
+var rellax=new Rellax('.rellax', {
+    speed: -2,
+    center: false,
+    wrapper: null,
+    round: true,
+    vertical: true,
+    horizontal: false
+})
+
+const images=document.querySelectorAll('img')
+console.log(images)
