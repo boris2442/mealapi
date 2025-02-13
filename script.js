@@ -3,7 +3,10 @@ window.onload = function() {
     document.querySelector('.loader').style.display = 'none';
     document.querySelector('.loader').style.transition='5s ease-out'
   };
-  
+//   window.addEventListener('onload', ()=>{
+// document.querySelector.style.display='none';
+
+//   })
 let result=document.getElementById("result");
 const form=document.querySelector("form");
 const input=document.querySelector("input");
