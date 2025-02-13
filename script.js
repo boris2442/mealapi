@@ -1,4 +1,9 @@
 //https://www.themealdb.com/api/json/v1/1/search.php?s=tomato
+window.onload = function() {
+    document.querySelector('.loader').style.display = 'none';
+    document.querySelector('.loader').style.transition='5s ease-out'
+  };
+  
 let result=document.getElementById("result");
 const form=document.querySelector("form");
 const input=document.querySelector("input");
