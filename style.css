@@ -11,6 +11,7 @@ font-family: Verdana, Geneva, sans-serif;
 
 }
 body{
+    position: relative;
     background-color: rgba(0, 255, 251, 0.154);
     padding: 30px;
 }
@@ -18,14 +19,15 @@ form{
     display: flex;
     gap:4px;
     flex-direction: column;
-    /* justify-content: center; */
+
     align-items: center;
+    padding-bottom: 30px;
 }
 input{
     padding: 7px 15px;
     
     width: 100%;
-    max-width: 450px;
+    max-width: 350px;
 }
 #result{
     display: flex;
@@ -39,6 +41,9 @@ input{
  padding: 20px;
  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
+.card:hover{
+    transform: scale(1.1);
+}
 img{
     width: 100%;
     padding: 0;
@@ -46,10 +51,30 @@ img{
     object-fit: cover;
     height: 200px;
 }
+
+li span{
+    font-weight: bold;
+}
 footer{
+    /* position: absolute; */
+    /* bottom: -30px; */
+    /* left: 40%; */
     text-align: center;
     padding: 30px;
 }
 footer a{
-    
+    color:#333;
+}
+.icone{
+    position: fixed;
+    left: 30px;
+    height: 200px;
+    top: 45%;
+
+}
+.icone div{
+    padding: 30px;
+}
+.icone div a i{
+    font-size: 25px;
 }

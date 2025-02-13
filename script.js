@@ -33,10 +33,10 @@ function mealsDisplay(){
         console.log(ingredients)
            return `
             <li class="card">
-            <h2>${meal.strMeal}</h2>
-            <p>${meal.strArea}</p>
+            <h2><span>Name:</span>${meal.strMeal}</h2>
+            <p><span>Country:</span>${meal.strArea}</p>
             <img src="${meal.strMealThumb}" alt="photo de ${meal.strMeal}" >
-            <ul>${ingredients.join("")}</ul>
+            <ul><span>Ingredients:</span>${ingredients.join("")}</ul>
             </li>
             `
         }
