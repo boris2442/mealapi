@@ -4,6 +4,8 @@ margin: 0;
 border: none;
 outline: none;
 box-sizing: border-box;
+text-decoration: none;
+list-style-type: none;
 font-family: Verdana, Geneva, sans-serif;
 
 
@@ -16,7 +18,7 @@ form{
     display: flex;
     gap:4px;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
 input{
@@ -43,4 +45,11 @@ img{
     margin: 0;
     object-fit: cover;
     height: 200px;
+}
+footer{
+    text-align: center;
+    padding: 30px;
+}
+footer a{
+    
 }
