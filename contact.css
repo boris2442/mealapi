@@ -92,6 +92,10 @@ form span{
 
 
 header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 30;
   height: 12vh;
   width: 100vw;
   display: flex;
