@@ -171,7 +171,8 @@ section{
     align-items: center; */
 }
       .container{
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         height: 80vh;
         margin: 0 auto;
         justify-content: center;
