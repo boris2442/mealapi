@@ -166,6 +166,7 @@
 section{
     margin: 0 auto;
     padding: 30px;
+    padding-top: 20px;
    
 }
       .container{
@@ -218,8 +219,16 @@ section{
       @media screen and (max-width:680px){
         .container{
             display: flex;
-            padding-bottom: 30px;
-            min-height: 100vh;
+         
+            min-height: 120vh;
             flex-direction: column;
+        }
+        
+        section{
+            padding-bottom: 40px;
+            background-color: red;
+        }
+        .box-title{
+            gap:10px;
         }
       }

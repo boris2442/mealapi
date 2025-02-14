@@ -251,3 +251,11 @@ footer{
 footer a{
     color:#333;
 }
+
+
+@media screen and (max-width:500px){
+    form{
+        width: 90%;
+        margin: 0px auto 0px auto;
+    }
+}
