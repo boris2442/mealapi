@@ -162,16 +162,23 @@
 section{
     margin: 0 auto;
     padding: 30px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
       .container{
         display: flex;
+        /* align-items: center; */
         margin: 0 auto;
         justify-content: center;
         gap:30px;
         
       }
       .container div {
-           max-width: 450px;
+           /* max-width: 500px;
+     */
+          
+        
            
            
         }
@@ -186,4 +193,11 @@ section{
         display: flex;
         justify-content: center;
         align-items: center;
+      }
+      .box-title{
+          padding: 20px;
+        padding-top: 40px;
+      }
+      h1{
+        padding: 20px;
       }
