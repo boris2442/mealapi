@@ -226,9 +226,37 @@ section{
         
         section{
             padding-bottom: 40px;
-            background-color: red;
+           
         }
         .box-title{
             gap:10px;
         }
+      }
+
+
+      @media screen and ( max-width:300px ){
+        section .link a{
+          position:relative;
+          color:blue;
+          background: none;  
+
+        }
+        section .link a::after{
+            position: absolute;
+            content:"";
+            height: 2px;
+            width: 0%;
+            background-color: none;
+            /* background-color: #333; */
+            left: 0;
+            transition: 0.5s width ease-in-out;
+           }
+           section .link a:hover::after, header div a:hover::after {
+            width: 100%;
+      
+          }
+          section .link a:hover{
+            color:#333;
+            background-color: none;
+          }
       }
