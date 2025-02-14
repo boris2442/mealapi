@@ -161,15 +161,6 @@ form span{
     border: 1.5px solid red;
 }
 
-
-
-
-
-
-
-
-
-
 .icone{
     position: fixed;
     left: 30px;
@@ -236,4 +227,27 @@ header div {
 display: flex;
 justify-content: center;
 gap:20px;
+}
+
+.icone{
+    position: fixed;
+    left: 30px;
+    height: 200px;
+    z-index: 20;
+    top: 45%;
+
+}
+.icone div{
+    padding: 30px;
+}
+.icone div a i{
+    font-size: 25px;
+}
+footer{
+  
+    text-align: center;
+    padding: 30px;
+}
+footer a{
+    color:#333;
 }
