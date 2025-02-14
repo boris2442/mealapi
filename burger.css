@@ -9,7 +9,7 @@
    header{
     padding-right: 20px;
    }
-        /* header ul{
+         header ul{
             position: absolute;
             top: 15vh;
             right: -100%;
@@ -24,7 +24,7 @@
             flex-direction: column;
       
             padding: 10px;
-        } */
+        } 
       
         .circle-btn{
           outline: none;
