@@ -12,6 +12,7 @@
          header ul{
             position: absolute;
             top: 12vh;
+       
             right: -100%;
             width: 250px;
             display: flex;
@@ -83,8 +84,8 @@
         .translate{
             position: absolute;
               top: 12vh;
-              right: 0%;
-   
+              
+              right: 0;
               width: 250px;
               display: flex;
               gap: 10px;
@@ -93,7 +94,6 @@
               background-color: #044363bb;
               flex-direction: column;
               transition: 1s ease-in-out;
-       
               padding: 10px;
           }
 }
