@@ -37,7 +37,7 @@ body{
     transition: 1s ease-in-out;
     font-size: clamp(15px, 4vw, 40px);
     font-weight: bold;
-    z-index: 9999; /* assure-toi qu'il se trouve au-dessus du contenu */
+    z-index: 9999; 
   }
   .lettre{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
