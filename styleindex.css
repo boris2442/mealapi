@@ -158,3 +158,32 @@
      justify-content: center;
      gap:20px;
       }
+
+section{
+    margin: 0 auto;
+    padding: 30px;
+}
+      .container{
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        gap:30px;
+        
+      }
+      .container div {
+           max-width: 450px;
+           
+           
+        }
+        .container  div img{
+          max-height: 450px;
+        object-fit: cover;
+       border-top-left-radius: 120px;
+       border-bottom-right-radius: 120px;
+      }
+
+      .box-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
