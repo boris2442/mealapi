@@ -18,6 +18,20 @@
         overflow-x: hidden;
         width: 100vw;
     }
+    .icone{
+        position: fixed;
+        left: 30px;
+        height: 200px;
+        z-index: 20;
+        top: 45%;
+    
+    }
+    .icone div{
+        padding: 30px;
+    }
+    .icone div a i{
+        font-size: 25px;
+    }
     .loader {
         position: fixed;
         top: 0;
