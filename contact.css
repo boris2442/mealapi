@@ -17,6 +17,7 @@ form{
 }
 .container-form{
     margin: 0 auto;
+    z-index: 100;
     width: 90%;
     max-width: 550px;
     box-shadow: 2px 3px 7px #333,
