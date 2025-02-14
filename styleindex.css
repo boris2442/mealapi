@@ -168,6 +168,7 @@ section{
 }
       .container{
         display: flex;
+        flex-wrap: wrap;
         /* align-items: center; */
         margin: 0 auto;
         justify-content: center;
@@ -185,8 +186,9 @@ section{
         .container  div img{
           max-height: 450px;
         object-fit: cover;
-       border-top-left-radius: 120px;
-       border-bottom-right-radius: 120px;
+        width: 90%;
+       border-radius: 9px;
+    
       }
 
       .box-image{
@@ -196,8 +198,23 @@ section{
       }
       .box-title{
           padding: 20px;
-        padding-top: 40px;
+        /* padding-top: 40px; */
       }
       h1{
         padding: 20px;
+      }
+      section .link{
+        padding: 20px;
+
+      }
+      section .link a{
+        background-color: #484848;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 7px;
+        color:#fff9f9
+      }
+      section .link a:hover{
+        background-color: #333;
+        color:#fff;
       }
