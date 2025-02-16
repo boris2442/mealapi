@@ -23,6 +23,7 @@
         left: 30px;
         height: 200px;
         z-index: 20;
+ 
         top: 45%;
     
     }
@@ -31,6 +32,7 @@
     }
     .icone div a i{
         font-size: 25px;
+        cursor: pointer;
     }
     .loader {
         position: fixed;
