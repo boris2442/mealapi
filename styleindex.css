@@ -6,7 +6,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
-    font-family: Verdana, Geneva, sans-serif;
+    font-family:"Poppins", Verdana, Geneva, sans-serif;
     
     
     }
@@ -43,7 +43,7 @@
       
         background-color: rgba(0, 0, 0, 0.5); 
         color: white;
-        background-color: black;
+        background-color: rgba(0, 255, 251, 0.154);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -51,7 +51,7 @@
         transition: 1s ease-in-out;
         font-size: clamp(15px, 4vw, 40px);
         font-weight: bold;
-        z-index: 9999; /* assure-toi qu'il se trouve au-dessus du contenu */
+        z-index: 9999; 
       }
       .lettre{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
